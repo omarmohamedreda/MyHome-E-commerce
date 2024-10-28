@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgb(207, 226, 221);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+
+
+}
+.logo{
+    font-size: x-large;
+    text-decoration: none;
+    color: rgb(74, 74, 179);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.A{
+    text-decoration: none;
+    color:rgb(74, 74, 179) ;
+    font-size:l larger;
+    font-weight:500 ;
+    padding-left: 30px;
+}
+.A:hover{
+    color: rgb(6, 6, 6);
+    transform: scale(1.1);
+}
+
+.H{
+    text-decoration: none;
+    color: rgb(74, 74, 179);
+    font-weight: 500;
+    font-size:l larger;
+    padding-left: 30px;
+    transition: 0.7 ease;
+}
+.H:hover{
+    color: rgb(6, 6, 6);
+    transform: scale(1.1);
+}
+
+
+
+.P{
+    text-decoration: none;
+    color: rgb(74, 74, 179);
+    font-weight: 500;
+    font-size:l larger;
+    padding-left: 30px;
+}
+.P:hover{
+    color: rgb(6, 6, 6);
+    transform: scale(1.1);
+}
+
+.C{
+    text-decoration: none;
+    color: rgb(74, 74, 179);
+    font-weight: 500;
+    font-size:l larger;
+    padding-left: 30px;
+}
+.C:hover{
+    color: rgb(6, 6, 6);
+    transform: scale(1.1);
+}
+section{
+    padding: 40px 70px;
+}
+
+
+
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+   background:url(photosfor/pexels-max-vakhtbovych-6436825.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+
+}
+.main h2{
+    
+    font-weight: 2000;
+    color: rgb(18, 13, 11);
+    font-size:xx-large;
+    justify-content: space-around;
+    
+
+}
+.main h2 span{
+    font-weight: 4000;
+    color: rgb(18, 13, 11);
+    font-size:xx-large;
+    justify-content: space-around;
+    margin: 3.5cm;
+    
+}
+.title {
+    display: flex;
+    justify-content: center ;
+    color: rgb(74, 74, 179);
+    font-size: 2.2em;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.card{
+    background-color: aliceblue;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{ 
+    transform: scale(1.1);
+
+}
+.icon{
+    color: rgb(74, 74, 179);
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: rgb(74, 74, 179);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+
+}
+.contact .icon{
+    font-size: 2.5em;
+}
+.contact .info h3{
+    color: rgb(6, 6, 6);
+
+}
+.button{
+    color: rgb(13, 12, 13);
+    background-color:rgb(104, 154, 140);;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: rgb(207, 226, 221);
+    color: rgb(11, 11, 23);
+    padding: 1.5em;
+    display: flex;
+
+
+}
+.footer-title{
+    font-size: 1.2;
+    font-weight: 500;
+}
+.footer-title span {
+    color:rgb(74, 74, 179);
+}
+.aboutuscard{
+
+    background-color: aliceblue;
+    width: 100em ;
+    height: 30em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.aboutuscard:hover{ 
+    transform: scale(1.1);
+
+}
